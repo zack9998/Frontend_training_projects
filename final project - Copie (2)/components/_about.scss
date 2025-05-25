@@ -1,0 +1,126 @@
+.section__about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  gap: 40.76px;
+  align-items: center;
+  padding-left: 150px;
+  background-color: white;
+
+  &--paragraph {
+    margin-top: 116.15px;
+    position: relative;
+    top: -76px;
+
+    &_first {
+      font-size: 50px;
+      line-height: 70px;
+      font-weight: 500;
+      width: 555px;
+      height: 140px;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
+    &_second {
+      margin-top: 20px;
+      width: 555px;
+      height: 60px;
+      font-weight: 400;
+      color: rgba(79, 86, 101, 1);
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &_button {
+      position: relative;
+      z-index: 1;
+      margin-top: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 25px;
+      color: white;
+      border: 1px solid rgba(245, 56, 56, 1);
+      border-radius: 10px;
+      background-color: rgba(245, 56, 56, 1);
+      width: 250px;
+      height: 60px;
+      box-shadow: 19px 25px 54px rgba(245, 56, 56, 0.35);
+    }
+  }
+
+  &--image {
+    margin-top: 88.49px;
+    width: 611.24px;
+    height: 382.44px;
+    position: relative;
+    top: -67px;
+  }
+
+  &--infos {
+    grid-column: -3/-1;
+    grid-row: 2/3;
+    display: flex;
+    max-width: 1140px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 103px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -175px;
+    box-shadow: 35.58px 42px 114px rgba(13, 16, 37, 0.06);
+
+    .info {
+      display: flex;
+      gap: 36.5px;
+      height: 125px;
+      align-items: center;
+      &:not(:last-child) {
+        border-right: 2px solid rgba(238, 239, 242, 1);
+      }
+
+      &:nth-child(2) {
+        .info_paragraph p {
+          margin-right: 134.5px;
+        }
+        .info_icon {
+          margin-left: 113px;
+        }
+      }
+
+      &_paragraph {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+
+        p:nth-child(1) {
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 30px;
+          margin-right: 129px;
+        }
+
+        p:nth-child(2) {
+          font-family: Rubik;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: rgba(79, 86, 101, 1);
+        }
+      }
+
+      &_icon {
+        width: 55px;
+        height: 55px;
+
+        &:first-child {
+          margin-left: 91px;
+        }
+      }
+    }
+  }
+}

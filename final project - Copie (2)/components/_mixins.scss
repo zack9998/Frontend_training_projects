@@ -1,0 +1,7 @@
+/* `Define mixins */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* `end of mixins */

@@ -1,0 +1,55 @@
+.subscription {
+  display: flex;
+  gap: 340px;
+  width: 1140px;
+  height: 233px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 1);
+  align-items: center;
+  justify-content: center;
+  margin-top: 65px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 1;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h3 {
+      width: 371.61px;
+      height: 80px;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 45px;
+      letter-spacing: 0;
+      vertical-align: middle;
+    }
+
+    p {
+      width: 410px;
+      height: 16px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0;
+      color: rgba(79, 86, 101, 1);
+    }
+  }
+  &_bottom {
+    width: 250px;
+    height: 60px;
+    color: white;
+    background-color: rgb(245, 56, 56);
+    width: 250px;
+    height: 60px;
+    box-shadow: 19px 25px 54px rgba(245, 56, 56, 0.35);
+    border: 1px solid rgb(245, 56, 56);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+  }
+}

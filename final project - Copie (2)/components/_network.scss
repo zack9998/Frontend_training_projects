@@ -1,0 +1,50 @@
+.network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 150px;
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
+
+  h2 {
+    width: 383.4px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  p {
+    width: 555px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(79, 86, 101, 1);
+    margin-bottom: 155px;
+  }
+
+  p span {
+    font-weight: 500;
+
+    height: 208.32px;
+  }
+  &__image--main {
+    width: 1060px;
+    height: 537.77px;
+  }
+
+  &__image--footer {
+    width: 1135.64px;
+    height: 208.32px;
+    margin-top: 35px;
+  }
+}
