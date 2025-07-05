@@ -1,0 +1,124 @@
+body {
+  width: 1440px;
+  background-color: hsl(210, 46%, 95%);
+  margin: 100px auto;
+}
+@media (max-width: 768px) {
+  body {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+}
+
+.preview {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 840px;
+}
+@media (max-width: 768px) {
+  .preview {
+    flex-direction: column;
+  }
+}
+.preview__image {
+  width: 360px;
+}
+@media (max-width: 768px) {
+  .preview__image {
+    width: 400px;
+  }
+}
+.preview__content {
+  width: 400px;
+}
+.preview__title {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  line-height: 27px;
+}
+@media (max-width: 768px) {
+  .preview__title {
+    padding: 0 25px;
+  }
+}
+.preview__description {
+  font-weight: 500;
+  color: hsl(212, 23%, 69%);
+  word-spacing: 1px;
+  line-height: 20px;
+}
+@media (max-width: 768px) {
+  .preview__description {
+    padding: 0 25px;
+  }
+}
+.preview__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+@media (max-width: 768px) {
+  .preview__footer {
+    padding: 0 25px 25px 25px;
+  }
+}
+.preview__footer .footer__avatar {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+.preview__footer .footer__info {
+  margin-left: 20px;
+}
+.preview__footer .footer__info .footer__name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  margin: 10px 0 0 0;
+}
+.preview__footer .footer__info .footer__date {
+  color: hsl(212, 23%, 69%);
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+.preview__footer .footer__share-icon-container {
+  margin-left: 140px;
+  width: 30px;
+  height: 30px;
+  background-color: hsl(212, 23%, 69%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+  cursor: pointer;
+  position: absolute;
+}
+
+.share__links {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(214, 17%, 51%);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 17px 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  position: relative;
+  top: -80px;
+  left: 40px;
+  visibility: hidden;
+}
+
+.arrow {
+  background-color: hsl(217, 19%, 35%);
+  aspect-ratio: 1/1;
+  width: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: rotate(45deg);
+}/*# sourceMappingURL=style.css.map */
